@@ -1,0 +1,29 @@
+[[main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "posts"
+[[main]]
+    name = "Archive"
+    weight = 110
+    identifier = "archive"
+    url = "archive"
+[[main]]
+    name = "Tags"
+    url = "tags"
+    weight = 120
+[[main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "about"
+[[main]]
+    name = "Talks/Conferences"
+    identifier = "talks"
+    weight = 300
+    url = "talks"
+#[[main]]
+#    name = "Projects"
+#    identifier = "projects"
+#    weight = 400
+#    url = "/static/projects"
