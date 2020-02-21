@@ -2,7 +2,7 @@
 title: Developing applications on Kubernetes - Intro
 date: 2020-02-21
 publishDate: 2020-02-21
-tags: [openshift,development,local,devexp,odo]
+tags: [kubernetes,appdev,cloudnative,devexp]
 author: jorgemoralespou
 ---
 Not too long ago I read [a blog](http://bit.ly/k8s-boring) and found this quote: 
