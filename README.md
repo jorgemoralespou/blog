@@ -1,25 +1,26 @@
 = My blog
 This is my personal blog
 
-== Uses
-hugo with [zzo theme](https://github.com/zzossig/hugo-theme-zzo)
+It used [hugo](https://gohugo.io/) with [zzo theme](https://github.com/zzossig/hugo-theme-zzo). [Docs for the theme](https://zzodocs.netlify.com/docs)
 
-Docs can be found at https://zzodocs.netlify.com/docs
-
-== Test
+## Test
+How to test the blog locally
 
 ```
+# -D will show drafts, -F future posts
 hugo server -D
 ```
 
-== Update the theme
+You can then go to http://localhost:1313/
+
+## Update the theme
 From the root of your site:
 
 ```
 git submodule update --remote --merge
 ```
 
-== Publish
+## Publish
 This is the process to publish the blog:
 
 * Make the changes here
@@ -31,7 +32,7 @@ This is the process to publish the blog:
 ```
 # Make changes
 
-# Test them locally
+# Test them locally (-D will show drafts, -F future posts)
 hugo server -D 
 # Visit http://localhost:1313/
 # <ctrl-c>
