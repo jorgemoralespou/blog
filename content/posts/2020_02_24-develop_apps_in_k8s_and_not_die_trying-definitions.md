@@ -5,7 +5,7 @@ publishDate: 2020-02-24
 tags: [kubernetes,appdev,cloudnative,devexp]
 author: jorgemoralespou
 ---
-As discussed in the [intro article](2020_02_21-develop_apps_in_k8s_and_not_die_trying-intro.md) I'm going to talk about Developing applications that will run on a Kubernetes platform. The first thing we need to do before going deeper into the topic is to go over some basic concepts so that everything I talk about later has the proper context.
+As discussed in the [intro article]({{<ref "2020_02_21-develop_apps_in_k8s_and_not_die_trying-intro.md">}}) I'm going to talk about Developing applications that will run on a Kubernetes platform. The first thing we need to do before going deeper into the topic is to go over some basic concepts so that everything I talk about later has the proper context.
 
 ## What is an application?
 If you ask the question of `what is an application` to different people you will get different answers, almost one different answer per respondant. So here, I'm going to try to define what I understand as an application.
